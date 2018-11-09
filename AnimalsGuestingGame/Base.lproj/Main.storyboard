@@ -44,6 +44,14 @@
                                     <action selector="pressButton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cvx-M5-PSp"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dub-Yc-91h">
+                                <rect key="frame" x="28" y="474" width="331" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button3"/>
+                                <connections>
+                                    <action selector="pressButton3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mkg-6d-9hK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -51,6 +59,7 @@
                     <connections>
                         <outlet property="button1" destination="LoC-0x-RgL" id="Gfu-cE-zgw"/>
                         <outlet property="button2" destination="y3G-Ho-ToW" id="k0H-9i-G3v"/>
+                        <outlet property="button3" destination="dub-Yc-91h" id="L05-xA-qrN"/>
                         <outlet property="imageView" destination="mk8-py-FWv" id="RyG-Ck-VLf"/>
                         <outlet property="titleLabel" destination="7uT-hQ-77i" id="GwH-ao-fUw"/>
                     </connections>
